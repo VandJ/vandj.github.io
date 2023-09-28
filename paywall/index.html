@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Test MeteredPaywall Class Website</h1>
+    <p>Content goes here...</p>
+           <!-- Include the JavaScript file -->
+       <script src="metered-paywall.js"></script>
+       <script>
+           // Initialize the paywall instance with custom settings
+           const paywall = new MeteredPaywall(
+            {
+                'maxPageViews': 2
+            }
+           ); 
+       </script> 
+</body>
+</html>
